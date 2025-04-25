@@ -81,11 +81,11 @@ html {
   --color-ddd-color: #ddd;
   --color-gray: #c4c4c4;
   --color-purple: #00ff2a;
-  --color-light-purple: #b7cd3b;
+  --color-light-purple: #d1e659;
   --color-light-blue: #6bc5f8;
   --color-navbarBorder-dark: #e2e2e207;
   --color-shadowDark: rgba(0, 0, 0, 0.137);
-  --static-heading-gradient-blue: #b7cd3b;
+  --static-heading-gradient-blue: #d6c421;
   --static-heading-gradient-pink: #ffcfdf;
   --tech-stack-box-first-color: #1a1a29;
   --tech-stack-box-second-color: rgba(27, 27, 40, 0);
@@ -164,14 +164,9 @@ html {
   --static-heading-gradient-blue: #0f7878;
   --static-heading-gradient-pink: #f09bb9;
   --color-shadowDark: #e2ddd7;
-  --color-light-purple: #b7cd3b;
   --tech-stack-box-first-color: #e7e2db;
   --tech-stack-box-second-color: #ece7e100;
   --tech-stack-box-border-color: #dad5cf;
-}
-#nift {
-  color: var(--color-light-purple);
-  font-weight: bold;
 }
 .setting-container {
   width: 60px;
@@ -851,7 +846,7 @@ noscript {
 .about-section,
 .projects-section-div,
 .skills-section {
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1447,7 +1442,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .pb2 {
+  .pb2{
     height: fit-content;
     padding-top: 30px;
     padding-bottom: 30px;
